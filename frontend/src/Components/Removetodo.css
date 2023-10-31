@@ -1,0 +1,37 @@
+.tasks{
+    margin-left:20px;
+    margin-top: 15px;
+    display:flex;
+    flex-direction: column;
+}
+
+.tasks h1{
+    margin-bottom: 30px;
+}
+
+.tasks div{
+    
+    border-left: 6px solid crimson;
+    padding-left: 30px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    /* height: 10vh; */
+}
+
+.tasks p{
+    padding-bottom: 0px;
+}
+
+.tasks h5:hover{
+    color: crimson;
+}
+.icon1{
+    margin-left: 20px;
+}
+.icon:hover{
+    transform:scale(1.25);
+}
+.icon1:hover{
+    transform:scale(1.25);
+}
+

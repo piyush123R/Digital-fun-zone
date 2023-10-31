@@ -1,0 +1,26 @@
+.tasks1{
+    margin-left:20px;
+    margin-top: 15px;
+    display:flex;
+    flex-direction: column;
+}
+
+.tasks1 h1{
+    margin-bottom: 30px;
+}
+
+.tasks1 div{
+    display: block;
+    padding-left: 30px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border-left: 6px solid rgb(14, 219, 14);
+}
+
+.tasks1 div p{
+    margin-bottom: 0px;
+}
+
+.tasks1 h5:hover{
+    color: green;
+}

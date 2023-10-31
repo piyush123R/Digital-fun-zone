@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.gameOver {
+  margin: 25px;
+}
+.homePage{
+    display:'flex';
+    flex-direction:'column';
+    margin-left: 25%;
+    justify-content: center;
+   
+}
+.gameOver h1{
+    text-align: center;
+    margin-bottom: 3rem;
+    border: 2px solid black;
+    padding: 8px;
+    background-image: linear-gradient(red,orange,yellow);
+    border:none;
+    border-radius: 1rem;
+}
+
+.playbtn{
+    margin-left: 29rem;
+}
+
+.gameImage{
+    width: 100%;
+}
+
+.gameImage{
+  margin: 15px;
+  width: 60%; 
+  height: 50vh; 
+  align-items: center;
+}
+
+
+.levels{
+    display: 'flex';
+    justify-content: center;
+}

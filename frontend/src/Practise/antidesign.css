@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+.message{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box; 
+    height: 100vh; 
+    overflow-y: auto;
+    background-color: #fae5aa;
+    padding-bottom: 40px;
+}
+.headings{
+   text-align: center;
+   margin-bottom: 35px;
+ 
+   background-image: linear-gradient(red,yellow,orange);
+   position: fixed;
+   top: 0;
+   width: calc(100vw - 16px);
+
+}
+
+.internal{
+    display:flex;
+    flex-direction: column;
+}
+
+.b{
+    align-self: flex-start;
+    margin-left:15px;
+    border: 1px solid green;
+    background-color: white;
+    padding-left: 6px;
+    padding-right: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border: none;
+    border-radius: 5px;
+    max-width: 50%;
+    margin-top: 3px
+}
+
+.a{
+    align-self: flex-end;
+    margin-right: 15px;
+    margin-top: 3px;
+    padding-left: 6px;
+    padding-right: 5px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border: none;
+    border-radius: 5px;
+    max-width: 50%;
+     background-color: #dcf8c6;
+}
+
+.send{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 9999; 
+   
+}
+.a:hover{
+    transform:scale(1.25)
+}
+.b:hover{
+    transform: scale(1.15);
+}
+.btn1{
+    margin-left:25px;
+    color: green;
+    margin-right: 25px;
+    width:10%;
+}
+
+.input{
+    max-width: 75%;
+    margin-left: 15px;
+    margin-top: 4px;
+    padding-left: 15px;
+    border-radius: 15px;
+    margin-right: 20px;
+    color:black;
+}
+
+.icon2{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.emoji{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 0; 
+    margin-bottom: 50px;
+    border: 2px solid black;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    align-items: flex-start; 
+    max-width: 65%; 
+    background-color: #e1e3e2;
+    border:none;
+    margin-top: 10px;
+    cursor:pointer;
+    margin-right: 10px;
+}
+
+.smily:hover{
+    transform:scale(1.25);
+}
